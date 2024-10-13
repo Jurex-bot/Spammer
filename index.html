@@ -85,7 +85,7 @@
             countdownDisplay.innerText = 'Please wait 10 seconds...';
             let countdown = 10;
 
-            const url = `https://nash-rest-api.onrender.com/ngl-spam?username=${username}&message=${encodeURIComponent(message)}&amount=${amount}`;
+            const url = `https://rest-api.joshuaapostol.site/ngl-spam?username=${username}&message=${encodeURIComponent(message)}&amount=${amount}`;
 
             fetch(url)
                 .then(response => response.text())
